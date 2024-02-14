@@ -17,9 +17,9 @@ export function HeaderWrapper() {
 
   return (
     <div
-      style={{ backgroundColor: "transparent", zIndex: 1 }}
+      style={{ backgroundColor: "transparent", zIndex: 1, width: "100%" }}
       id="kt_app_header"
-      className="position-sticky top-0 left-0 z-1 app-header  bg-transparent shadow-none"
+      className="  position-fixed  position-absolute top-0 end-0  z-1 app-header  bg-transparent shadow-none"
     >
       <div
         id="kt_app_header_container"
